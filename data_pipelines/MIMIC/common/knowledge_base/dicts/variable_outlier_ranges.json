@@ -1,0 +1,222 @@
+{
+    "blood_be": [
+        -20.0,
+        30.0
+    ],
+    "blood_hco3": [
+        10.0,
+        45.0
+    ],
+    "blood_ph": [
+        6.0,
+        8.0
+    ],
+    "drugs_vaso4h": [
+        0.0,
+        5.0
+    ],
+    "vital_map": [
+        30.0,
+        200.0
+    ],
+    "vital_mpap": [
+        10.0,
+        80.0
+    ],
+    "vital_DBP": [
+        20.0,
+        120.0
+    ],
+    "vital_SBP": [
+        50.0,
+        260.0
+    ],
+    "vital_SVRI": [
+        500.0,
+        5000.0
+    ],
+    "blood_INR": [
+        0.9,
+        15.0
+    ],
+    "blood_PTT": [
+        20.0,
+        120.0
+    ],
+    "daemo_weight": [
+        40.0,
+        140.0
+    ],
+    "daemo_height": [
+        155.0,
+        200.0
+    ],
+    "ecmo_bloodflow": [
+        0.0,
+        7.0
+    ],
+    "ecmo_sweep": [
+        0.0,
+        12.0
+    ],
+    "blood_calcium": [
+        0.2,
+        5.0
+    ],
+    "blood_chlorid": [
+        80.0,
+        150.0
+    ],
+    "blood_caion": [
+        0.5,
+        2.5
+    ],
+    "blood_magnes": [
+        0.5,
+        5.0
+    ],
+    "blood_potas": [
+        2.0,
+        10.0
+    ],
+    "blood_sodium": [
+        120.0,
+        180.0
+    ],
+    "vital_cvp": [
+        -4.0,
+        25.0
+    ],
+    "state_cumfluids": [
+        -10000.0,
+        20000.0
+    ],
+    "state_ivfluid4h": [
+        0.0,
+        20000.0
+    ],
+    "vent_etco2": [
+        20.0,
+        100.0
+    ],
+    "blood_paco2": [
+        20.0,
+        100.0
+    ],
+    "blood_pao2": [
+        20.0,
+        600.0
+    ],
+    "vent_fio2": [
+        21.0,
+        100.0
+    ],
+    "vital_spo2": [
+        30.0,
+        100.0
+    ],
+    "blood_sao2": [
+        40.0,
+        100.0
+    ],
+    "blood_svo2": [
+        20.0,
+        90.0
+    ],
+    "blood_plat": [
+        10.0,
+        1500.0
+    ],
+    "blood_hb": [
+        2.0,
+        20.0
+    ],
+    "blood_hct": [
+        15.0,
+        80.0
+    ],
+    "blood_wbc": [
+        0.0,
+        30.0
+    ],
+    "vital_co": [
+        1000.0,
+        25000.0
+    ],
+    "vital_hr": [
+        20.0,
+        200.0
+    ],
+    "state_bun": [
+        1.0,
+        10.0
+    ],
+    "blood_crea": [
+        30.0,
+        450.0
+    ],
+    "state_urin4h": [
+        0.0,
+        2000.0
+    ],
+    "blood_album": [
+        5.0,
+        50.0
+    ],
+    "blood_ast": [
+        0.1,
+        100.0
+    ],
+    "blood_alt": [
+        0.1,
+        100.0
+    ],
+    "blood_billi": [
+        5.0,
+        500.0
+    ],
+    "blood_lac": [
+        0.2,
+        30.0
+    ],
+    "blood_gluco": [
+        2.0,
+        40.0
+    ],
+    "state_temp": [
+        30.0,
+        43.0
+    ],
+    "vent_inspexp": [
+        0.25,
+        4.0
+    ],
+    "vent_pinsp": [
+        10.0,
+        60.0
+    ],
+    "vent_mairpress": [
+        5.0,
+        55.0
+    ],
+    "vent_mv": [
+        2.4,
+        40.0
+    ],
+    "vent_peep": [
+        0.0,
+        50.0
+    ],
+    "vent_rrtot": [
+        3.0,
+        60.0
+    ],
+    "vent_suppress": [
+        0.0,
+        30.0
+    ],
+    "vent_vt": [
+        80.0,
+        2040.0
+    ]
+}

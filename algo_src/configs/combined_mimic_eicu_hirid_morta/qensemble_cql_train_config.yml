@@ -1,0 +1,21 @@
+project: "intellilung-rl"
+name: "QEnsemble_OOD-CQL"
+job_type: "rl_train"
+steps: 10_000
+eval_every: 10_000
+log_every: 100
+checkpoint_every: 10_000
+root_path: logs
+critic_learning_rate: !!float 3e-4
+gamma: 0.99
+batch_size: 256
+check_batch_size : 2048
+num_critics: 50
+tau: !!float 5e-3
+eval_batch_size: 10_000
+save_only_last_checkpoint: True
+max_action: 1.0
+normalize_reward: False
+grad_clip: 1.0
+policy_log_std_multiplier: 1.0
+orthogonal_init: True

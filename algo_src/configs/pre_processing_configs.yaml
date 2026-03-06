@@ -1,0 +1,191 @@
+combined_mimic_eicu_hirid_hybrid:
+  action_space:
+    continuous_actions:
+      - vent_vt_action
+      - vent_rrtot
+      - vent_peep
+      - vent_fio2
+      - vent_pinsp-peep
+    discrete_actions:
+      - vent_mode
+  action_type: discrete
+  episode_id_column: episode_id
+  historized_actions: false
+  history_len: 0
+  patient_alive_col: daemo_discharge
+  reward_function:
+    reward_fns:
+      - normalize: true
+        ranges_file_path: configs/state_vector_ranges_for_reward.json
+        state_vector_ranges:
+          blood_paco2:
+            priority: 2
+            range:
+              - 28
+              - 55
+          blood_pao2:
+            priority: 2
+            range:
+              - 55
+              - 80
+          blood_ph:
+            priority: 2
+            range:
+              - 7.3
+              - 7.45
+          blood_sao2:
+            priority: 2
+            range:
+              - 88
+              - 96
+          vent_etco2:
+            priority: 2
+            range:
+              - 34
+              - 45
+          vital_hr:
+            priority: 1
+            range:
+              - 70
+              - 109
+          vital_map:
+            priority: 1
+            range:
+              - 60
+              - 109
+          vital_spo2:
+            priority: 2
+            range:
+              - 88
+              - 96
+        time_penalty: true
+      - mv_duration_col: mv_duration
+        patient_alive_col: daemo_discharge
+        pause_until_next_mv_col: pause_until_next
+        post_extubation_interval_col: post_extubation_interval
+        min_reward: 0
+        max_reward: 0.5
+  state_vector_columns:
+    - drugs_vaso4h
+    - vent_pinsp
+    - blood_chlorid
+    - vital_hr
+    - blood_wbc
+    - blood_pao2
+    - vital_SBP
+    - blood_be
+    - blood_paco2
+    - vital_map
+    - vital_DBP
+    - blood_potas
+    - blood_INR
+    - blood_ph
+    - daemo_weight
+    - state_ivfluid4h
+    - state_urin4h
+    - blood_sao2
+    - daemo_height
+    - daemo_age
+    - blood_hb
+    - blood_sodium
+    - blood_hco3
+    - daemo_sex
+    - vital_spo2
+    - vent_vt_obs
+  timestep_column: timepoints
+  vent_mode_action_masking: false
+combined_mimic_eicu_hirid:
+  action_space:
+    discrete_actions:
+      - vent_vt_action
+      - vent_rrtot
+      - vent_peep
+      - vent_fio2
+      - vent_pinsp-peep
+      - vent_mode
+  action_type: discrete
+  episode_id_column: episode_id
+  historized_actions: false
+  history_len: 0
+  patient_alive_col: daemo_discharge
+  reward_function:
+    reward_fns:
+      - normalize: true
+        ranges_file_path: configs/state_vector_ranges_for_reward.json
+        state_vector_ranges:
+          blood_paco2:
+            priority: 2
+            range:
+              - 28
+              - 55
+          blood_pao2:
+            priority: 2
+            range:
+              - 55
+              - 80
+          blood_ph:
+            priority: 2
+            range:
+              - 7.3
+              - 7.45
+          blood_sao2:
+            priority: 2
+            range:
+              - 88
+              - 96
+          vent_etco2:
+            priority: 2
+            range:
+              - 34
+              - 45
+          vital_hr:
+            priority: 1
+            range:
+              - 70
+              - 109
+          vital_map:
+            priority: 1
+            range:
+              - 60
+              - 109
+          vital_spo2:
+            priority: 2
+            range:
+              - 88
+              - 96
+        time_penalty: true
+      - mv_duration_col: mv_duration
+        patient_alive_col: daemo_discharge
+        pause_until_next_mv_col: pause_until_next
+        post_extubation_interval_col: post_extubation_interval
+        min_reward: 0
+        max_reward: 0.5
+  state_vector_columns:
+    - drugs_vaso4h
+    - vent_pinsp
+    - blood_chlorid
+    - vital_hr
+    - blood_wbc
+    - blood_pao2
+    - vital_SBP
+    - blood_be
+    - blood_paco2
+    - vital_map
+    - vital_DBP
+    - blood_potas
+    - blood_INR
+    - blood_ph
+    - daemo_weight
+    - state_ivfluid4h
+    - state_urin4h
+    - blood_sao2
+    - daemo_height
+    - daemo_age
+    - blood_hb
+    - blood_sodium
+    - blood_hco3
+    - daemo_sex
+    - vital_spo2
+    - vent_vt_obs
+  timestep_column: timepoints
+  vent_mode_action_masking: false

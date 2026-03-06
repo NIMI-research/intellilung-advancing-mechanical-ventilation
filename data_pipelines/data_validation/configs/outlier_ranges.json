@@ -1,0 +1,506 @@
+{
+    "blood_INR": {
+        "low": [
+            0.9
+        ],
+        "high": [
+            15.0
+        ]
+    },
+    "blood_PTT": {
+        "low": [
+            20.0
+        ],
+        "high": [
+            120.0
+        ]
+    },
+    "blood_album": {
+        "low": [
+            5.0
+        ],
+        "high": [
+            50.0
+        ]
+    },
+    "blood_alt": {
+        "low": [
+            0.1
+        ],
+        "high": [
+            100.0
+        ]
+    },
+    "blood_ast": {
+        "low": [
+            0.1
+        ],
+        "high": [
+            100.0
+        ]
+    },
+    "blood_be": {
+        "low": [
+            -20.0
+        ],
+        "high": [
+            30.0
+        ]
+    },
+    "blood_billi": {
+        "low": [
+            5.0
+        ],
+        "high": [
+            500.0
+        ]
+    },
+    "blood_caion": {
+        "low": [
+            0.5
+        ],
+        "high": [
+            2.5
+        ]
+    },
+    "blood_calcium": {
+        "low": [
+            0.2
+        ],
+        "high": [
+            5.0
+        ]
+    },
+    "blood_chlorid": {
+        "low": [
+            80.0
+        ],
+        "high": [
+            150.0
+        ]
+    },
+    "blood_crea": {
+        "low": [
+            30.0
+        ],
+        "high": [
+            450.0
+        ]
+    },
+    "blood_gluco": {
+        "low": [
+            2.0
+        ],
+        "high": [
+            40.0
+        ]
+    },
+    "blood_hb": {
+        "low": [
+            2.0
+        ],
+        "high": [
+            20.0
+        ]
+    },
+    "blood_hco3": {
+        "low": [
+            10.0
+        ],
+        "high": [
+            45.0
+        ]
+    },
+    "blood_hct": {
+        "low": [
+            15.0
+        ],
+        "high": [
+            80.0
+        ]
+    },
+    "blood_lac": {
+        "low": [
+            0.2
+        ],
+        "high": [
+            30.0
+        ]
+    },
+    "blood_magnes": {
+        "low": [
+            0.5
+        ],
+        "high": [
+            5.0
+        ]
+    },
+    "blood_paco2": {
+        "low": [
+            20.0
+        ],
+        "high": [
+            100.0
+        ]
+    },
+    "blood_pao2": {
+        "low": [
+            20.0
+        ],
+        "high": [
+            600.0
+        ]
+    },
+    "blood_ph": {
+        "low": [
+            6.0
+        ],
+        "high": [
+            8.0
+        ]
+    },
+    "blood_plat": {
+        "low": [
+            10.0
+        ],
+        "high": [
+            1500.0
+        ]
+    },
+    "blood_potas": {
+        "low": [
+            2.0
+        ],
+        "high": [
+            10.0
+        ]
+    },
+    "blood_sao2": {
+        "low": [
+            40.0
+        ],
+        "high": [
+            100.0
+        ]
+    },
+    "blood_sodium": {
+        "low": [
+            120.0
+        ],
+        "high": [
+            180.0
+        ]
+    },
+    "blood_svo2": {
+        "low": [
+            20.0
+        ],
+        "high": [
+            90.0
+        ]
+    },
+    "blood_wbc": {
+        "low": [
+            0.0
+        ],
+        "high": [
+            30.0
+        ]
+    },
+    "daemo_age": {
+        "low": [
+            18.0
+        ],
+        "high": [
+            120.0
+        ]
+    },
+    "daemo_height": {
+        "low": [
+            155.0
+        ],
+        "high": [
+            200.0
+        ]
+    },
+    "daemo_weight": {
+        "low": [
+            40.0
+        ],
+        "high": [
+            140.0
+        ]
+    },
+    "drugs_vaso4h": {
+        "low": [
+            0.0
+        ],
+        "high": [
+            5.0
+        ]
+    },
+    "ecmo_bloodflow": {
+        "low": [
+            0.1
+        ],
+        "high": [
+            10.0
+        ]
+    },
+    "ecmo_sweep": {
+        "low": [
+            1.0
+        ],
+        "high": [
+            10.0
+        ]
+    },
+    "state_bun": {
+        "low": [
+            1.0
+        ],
+        "high": [
+            10.0
+        ]
+    },
+    "state_cumfluids": {
+        "low": [
+            -10000.0
+        ],
+        "high": [
+            20000.0
+        ]
+    },
+    "state_ivfluid4h": {
+        "low": [
+            0.0
+        ],
+        "high": [
+            20000.0
+        ]
+    },
+    "state_temp": {
+        "low": [
+            30.0
+        ],
+        "high": [
+            43.0
+        ]
+    },
+    "state_urin4h": {
+        "low": [
+            0.0
+        ],
+        "high": [
+            2000.0
+        ]
+    },
+    "vent_etco2": {
+        "low": [
+            20.0
+        ],
+        "high": [
+            100.0
+        ]
+    },
+    "vent_fio2": {
+        "low": [
+            21.0
+        ],
+        "high": [
+            100.0
+        ]
+    },
+    "vent_inspexp": {
+        "low": [
+            0.25
+        ],
+        "high": [
+            4.0
+        ]
+    },
+    "vent_mairpress": {
+        "low": [
+            5.0
+        ],
+        "high": [
+            55.0
+        ]
+    },
+    "vent_peep": {
+        "low": [
+            0.0
+        ],
+        "high": [
+            50.0
+        ]
+    },
+    "vent_pinsp": {
+        "low": [
+            10.0
+        ],
+        "high": [
+            60.0
+        ]
+    },
+    "vent_pinsp-peep": {
+        "low": [
+            0.0
+        ],
+        "high": [
+            60.0
+        ]
+    },
+    "vent_vt_action": {
+        "low": [
+            0.8573020703844999
+        ],
+        "high": [
+            42.618977980194714
+        ]
+    },
+    "vent_vt_obs": {
+        "low": [
+            0.8573020703844999
+        ],
+        "high": [
+            42.618977980194714
+        ]
+    },
+    "vent_rrtot": {
+        "low": [
+            3.0
+        ],
+        "high": [
+            60.0
+        ]
+    },
+    "vent_rrspont": {
+        "low": [
+            3.0
+        ],
+        "high": [
+            60.0
+        ]
+    },
+    "vent_suppress": {
+        "low": [
+            0.0
+        ],
+        "high": [
+            30.0
+        ]
+    },
+    "vital_DBP": {
+        "low": [
+            20.0
+        ],
+        "high": [
+            120.0
+        ]
+    },
+    "vital_SBP": {
+        "low": [
+            50.0
+        ],
+        "high": [
+            260.0
+        ]
+    },
+    "vital_SVRI": {
+        "low": [
+            500.0
+        ],
+        "high": [
+            5000.0
+        ]
+    },
+    "vital_co": {
+        "low": [
+            1000.0
+        ],
+        "high": [
+            25000.0
+        ]
+    },
+    "vital_cvp": {
+        "low": [
+            -4.0
+        ],
+        "high": [
+            25.0
+        ]
+    },
+    "vital_hr": {
+        "low": [
+            20.0
+        ],
+        "high": [
+            200.0
+        ]
+    },
+    "vital_map": {
+        "low": [
+            30.0
+        ],
+        "high": [
+            200.0
+        ]
+    },
+    "vital_mpap": {
+        "low": [
+            10.0
+        ],
+        "high": [
+            80.0
+        ]
+    },
+    "vital_spo2": {
+        "low": [
+            30.0
+        ],
+        "high": [
+            100.0
+        ]
+    },
+    "daemo_sex": {
+        "low": [
+            0.0
+        ],
+        "high": [
+            1.0
+        ]
+    },
+    "vent_mode": {
+        "low": [
+            2.0
+        ],
+        "high": [
+            3.0
+        ]
+    },
+    "state_airtype": {
+       "low": [
+            0.0
+        ],
+        "high": [
+            2.0
+        ]
+    },
+    "blood_ffp": {
+       "low": [
+            0.0
+        ],
+        "high": [
+            9999.0
+        ]
+    },
+    "blood_prbc": {
+       "low": [
+            0.0
+        ],
+        "high": [
+            9999.0
+        ]
+    }
+}

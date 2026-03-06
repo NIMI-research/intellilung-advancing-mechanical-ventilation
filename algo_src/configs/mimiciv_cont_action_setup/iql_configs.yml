@@ -1,0 +1,24 @@
+project: "intellilung-rl"
+name: "IQL"
+job_type: "rl_train"
+steps: 1_000_000
+eval_every: 10_000
+log_every: 100
+checkpoint_every: 50_000
+#save_only_last_checkpoint: True
+root_path: logs
+
+batch_size: 256
+discount: 0.99
+tau: 0.005
+
+iql_deterministic: false
+iql_tau: 0.8
+beta: 100
+
+hidden_dims: [256, 256, 256, 256]
+
+qf_lr: 3e-4
+actor_lr: 3e-4
+vf_lr: 3e-4
+

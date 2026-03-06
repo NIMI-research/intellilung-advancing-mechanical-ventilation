@@ -1,0 +1,365 @@
+{
+    "blood_be": [
+        "Arterial Base Excess"
+    ],
+    "blood_hco3": [
+        "HCO3 (serum)",
+        "ZHCO3 (serum)"
+    ],
+    "blood_ph": [
+        "PH (Arterial)",
+        "PH (Venous)"
+    ],
+    "drugs_vaso4h": [
+        "Epinephrine",
+        "Norepinephrine",
+        "Phenylephrine",
+        "Phenylephrine (50/250)",
+        "Phenylephrine (200/250)_OLD_1",
+        "Phenylephrine (200/250)",
+        "Dopamine",
+        "Vasopressin",
+        "Angiotensin II (Giapreza)",
+        "Angiotensin II (Giapreza)",
+        "Phenylephrine (Intubation)"
+    ],
+    "vital_map": [
+        "Arterial Blood Pressure mean",
+        "Non Invasive Blood Pressure mean"
+    ],
+    "vital_mpap": [
+        "Pulmonary Artery Pressure mean"
+    ],
+    "vital_DBP": [
+        "Arterial Blood Pressure diastolic",
+        "Manual Blood Pressure Diastolic Right",
+        "Manual Blood Pressure Diastolic Left"
+    ],
+    "vital_SBP": [
+        "Arterial Blood Pressure systolic"
+    ],
+    "vital_SVRI": [
+        "Total Peripheral Resistance Index (TPRI) (NICOM)"
+    ],
+    "blood_INR": [
+        "INR",
+        "ZINR"
+    ],
+    "blood_PTT": [
+        "PTT",
+        "ZPTT"
+    ],
+    "ethnic": [],
+    "daemo_sex": [
+        "Gender"
+    ],
+    "daemo_weight": [
+        "Daily Weight",
+        "Admission Weight (lbs.)",
+        "Admission Weight (Kg)"
+    ],
+    "daemo_height": [
+        "Height (cm)",
+        "Height"
+    ],
+    "daemo_discharge": [
+        "Discharge from ICU",
+        "Discharge NCP - Goal"
+    ],
+    "ecmo_bloodflow": [
+        "ECMO",
+        "Flow (ECMO)"
+    ],
+    "ecmo_rpm": [
+        "Speed (CH)",
+        "Speed (ECMO)"
+    ],
+    "ecmo_sweep": [
+        "Sweep (CH)"
+    ],
+    "ecmo_active": [],
+    "blood_calcium": [
+        "Calcium non-ionized",
+        "Chloride (whole blood)",
+        "Chloride (whole blood) (soft)"
+    ],
+    "blood_chlorid": [
+        "Chloride (serum)",
+        "Chloride (serum) (soft)"
+    ],
+    "blood_caion": [
+        "Ionized Calcium"
+    ],
+    "blood_magnes": [
+        "Magnesium"
+    ],
+    "blood_potas": [
+        "Potassium (serum)",
+        "Potassium (whole blood)",
+        "ZPotassium (serum)",
+        "ZPotassium (whole blood)",
+        "PotassiumApacheIIValue"
+    ],
+    "blood_sodium": [
+        "Sodium (serum)",
+        "Sodium (whole blood)",
+        "Sodium (serum) (soft)",
+        "Sodium (whole blood) (soft)"
+    ],
+    "vital_cvp": [
+        "Central Venous Pressure"
+    ],
+    "cum_fluid_balance": [],
+    "state_cumfluids": [
+        "Hemodialysis Output"
+    ],
+    "iv_fluid_in_4h": [],
+    "state_ivfluid4h": [
+        "NaCl 0.9%",
+        "NaCl 0.45%",
+        "NaCl 3% (Hypertonic Saline)",
+        "NaCl 23.4%",
+        "Dextrose 5%",
+        "Dextrose 10%",
+        "Dextrose 50%",
+        "NaCl 0.9%",
+        "NaCl 0.45%",
+        "NaCl 3% (Hypertonic Saline)",
+        "Trisodium Citrate 0.4%",
+        "Bicarbonate Base",
+        "Free Water",
+        "D5 1/2NS",
+        "D5NS",
+        "D5LR",
+        "LR",
+        "D5 1/4NS",
+        "Sterile Water",
+        "Sodium Bicarbonate 8.4% (Amp)",
+        "Dextrose 20%",
+        "Dextrose 30%",
+        "Dextrose 40%",
+        "NaCl 23.4%",
+        "Saline 0,9%",
+        "Saline 0,255%",
+        "Saline 0,3%",
+        "Saline 0,45%",
+        "Saline 0,65%",
+        "Saline 3%",
+        "Dextrose 4,3% / Saline 0,18%",
+        "Dextrose 5% / Saline 0,9%",
+        "Dextrose 5% / Saline 0,45%",
+        "Dextrose 2,5% / Saline 0,45%",
+        "Hetastarch 6% (Saline 0,9%)",
+        "Hexastarch 6% (Elohaes) / Saline 0,9%",
+        "Saline 0,18%",
+        "Saline 30%",
+        "Albumin (Human) 20%",
+        "Albumin 25%",
+        "Albumin (Human) 4%",
+        "Albumin 5%",
+        "Aquadestila",
+        "Dextrose 20.%",
+        "Ringers",
+        "Ringers Lactate",
+        "Ringers Acetate",
+        "Dextrose 5% / Ringers Lactate",
+        "Dextrose 10% / Ringers Lactate",
+        "Filtered erytrocytes",
+        "Fresh Frozen Plasma",
+        "Octoplas",
+        "Gelofusine",
+        "Gelatin succinylated",
+        "Pentastarch 6% (HAES, Hemohes)",
+        "Pentastarch",
+        "Pentastarch 10% (HAES, Hemohes)",
+        "Hextend (Hetastarch 6% in Lactate)",
+        "Packed Red Cells",
+        "Thrombocyte suspension",
+        "Whole Blood",
+        "Dextrose 19%",
+        "Dextrose 2,5%",
+        "Auto transfusion",
+        "Normosol",
+        "Sodium Bicarbonate 1,4%",
+        "Packed Red Blood Cells",
+        "Cryoprecipitate",
+        "Cell Saver",
+        "Hetastarch (Hespan) 6%",
+        "Dextran 40",
+        "Dextran 70",
+        "KCL Bolus)",
+        "KCL (Bolus)",
+        "Calcium Gluconate (Bolus)"
+    ],
+    "vent_etco2": [
+        "EtCO2"
+    ],
+    "blood_paco2": [
+        "Arterial CO2 Pressure"
+    ],
+    "blood_pao2": [
+        "Arterial O2 pressure"
+    ],
+    "vent_fio2": [
+        "Inspired O2 Fraction",
+        "FiO2 (CH)",
+        "FiO2 (ECMO)",
+        "Inspired O2 Fraction",
+        "FiO2 (CH)",
+        "FiO2 (ECMO)"
+    ],
+    "vital_spo2": [
+        "O2 saturation pulseoxymetry"
+    ],
+    "blood_sao2": [
+        "Arterial O2 Saturation"
+    ],
+    "blood_svo2": [
+        "SvO2 Calibrated",
+        "SvO2"
+    ],
+    "blood_sco2": [
+        "ScvO2 Central Venous O2% Sat",
+        "ScvO2 (Presep) Calibrated",
+        "ScvO2 (Presep)"
+    ],
+    "blood_smvo2": [
+        "Mixed Venous O2% Sat"
+    ],
+    "blood_plat": [
+        "Platelet Count",
+        "ZPlatelet Count"
+    ],
+    "blood_hb": [
+        "Hemoglobin"
+    ],
+    "blood_hct": [
+        "Hematocrit (serum)"
+    ],
+    "blood_wbc": [
+        "WBC"
+    ],
+    "vital_co": [
+        "Cardiac Output (thermodilution)",
+        "CO (Arterial)"
+    ],
+    "vital_hr": [
+        "Heart Rate"
+    ],
+    "state_bun": [
+        "BUN"
+    ],
+    "blood_crea": [
+        "Creatinine (serum)",
+        "Creatinine_ApacheIV",
+        "Creatinine (whole blood)"
+    ],
+    "state_urin4h": [
+        "R Ureteral Stent",
+        "L Ureteral Stent",
+        "Foley Catheter",
+        "Void",
+        "Condom Cath",
+        "Suprapubic",
+        "R Nephrostomy",
+        "L Nephrostomy",
+        "Straight Cath"
+    ],
+    "blood_album": [
+        "Albumin"
+    ],
+    "blood_ast": [
+        "AST"
+    ],
+    "blood_alt": [
+        "ALT"
+    ],
+    "blood_billi": [
+        "Total Bilirubin"
+    ],
+    "blood_lac": [
+        "Lactic Acid"
+    ],
+    "blood_gluco": [
+        "Glucose (serum)"
+    ],
+    "state_temp": [
+        "Temperature Fahrenheit",
+        "Temperature Fahrenheit",
+        "Temperature Celsius",
+        "Temperature Celsius"
+    ],
+    "is_controlled": [],
+    "vent_inspexp": [
+        "Expiratory Ratio"
+    ],
+    "vent_insp": [
+        "Inspiratory Time"
+    ],
+    "vent_pinsp": [
+        "Peak Insp. Pressure",
+        "Plateau Pressure",
+        "Pinsp (Draeger only)",
+        "Pinsp (Hamilton)"
+    ],
+    "vent_invas": [
+        "Invasive Ventilation"
+    ],
+    "vent_mairpress": [
+        "Mean Airway Pressure"
+    ],
+    "vent_mv": [
+        "Minute Volume"
+    ],
+    "vent_peep": [
+        "PEEP set",
+        "Total PEEP Level"
+    ],
+    "is_spont": [],
+    "vent_rsbi": [],
+    "vent_rrtot": [
+        "Respiratory Rate",
+        "Respiratory Rate (Total)"
+    ],
+    "vent_rrcontrolled": [
+        "Respiratory Rate (Set)"
+    ],
+    "vent_rrspont": [
+        "Respiratory Rate (spontaneous)",
+        "Spont RR"
+    ],
+    "vent_suppress": [
+        "PSV Level"
+    ],
+    "vent_vt": [
+        "Spont Vt",
+        "Tidal Volume (set)",
+        "Tidal Volume (observed)",
+        "Tidal Volume (spontaneous)"
+    ],
+    "vent_vtnorm": [],
+    "vent_mode": [
+        "Ventilator Mode",
+        "Ventilator Mode (Hamilton)"
+    ],
+    "ext_ready": [],
+    "state_icd": [],
+    "state_airtype": [
+        "Extubation",
+        "Airway Type",
+        "Trach Tube Type",
+        "O2 Delivery Device(s)",
+        "Percutaneous Tracheostomy",
+        "Open Tracheostomy"
+    ],
+    "blood_ffp": [
+        "Fresh Frozen Plasma",
+        "Cryoprecipitate"
+    ],
+    "blood_prbc": [
+        "Filtered erytrocytes",
+        "Packed Red Cells",
+        "Packed Red Blood Cells",
+        "Cell Saver"
+    ]
+}

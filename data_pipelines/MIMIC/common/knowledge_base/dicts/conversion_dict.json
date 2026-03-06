@@ -1,0 +1,26 @@
+{
+    "Norepinephrine": {
+        "unit": "mcg",
+        "scale": 1
+    },
+    "Epinephrine": {
+        "unit": "mcg",
+        "scale": 1
+    },
+    "Dopamine": {
+        "unit": "mcg",
+        "scale": 0.01
+    },
+    "Angiotensin II": {
+        "unit": "mcg",
+        "scale": 2.5
+    },
+    "Phenylephrine": {
+        "unit": "mcg",
+        "scale": 0.06
+    },
+    "Vasopressin": {
+        "unit": "units",
+        "scale": 2.5
+    }
+}

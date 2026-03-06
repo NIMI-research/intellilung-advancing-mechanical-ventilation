@@ -1,0 +1,58 @@
+{
+  "blood_ph": {
+    "priority": 2,
+    "range": [
+      7.3,
+      7.45
+    ]
+  },
+  "vital_map": {
+    "priority": 1,
+    "range": [
+      60,
+      109
+    ]
+  },
+  "blood_pao2": {
+    "priority": 2,
+    "range": [
+      55,
+      80
+    ]
+  },
+  "blood_sao2": {
+    "priority": 2,
+    "range": [
+      88,
+      96
+    ]
+  },
+  "vital_hr": {
+    "priority": 1,
+    "range": [
+      70,
+      109
+    ]
+  },
+  "blood_paco2": {
+    "priority": 2,
+    "range": [
+      28,
+      55
+    ]
+  },
+  "vital_spo2": {
+    "priority": 2,
+    "range": [
+      88,
+      96
+    ]
+  },
+  "vent_etco2": {
+    "priority": 2,
+    "range": [
+      34,
+      45
+    ]
+  }
+}

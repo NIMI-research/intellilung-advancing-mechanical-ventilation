@@ -1,0 +1,71 @@
+project: "intellilung-rl"
+name: "PLDM"
+job_type: "rl_train"
+steps: 8000
+eval_every: 100
+log_every: 10
+save_only_last_checkpoint: True
+checkpoint_every: 3_000
+root_path: logs
+
+lr: !!float 1e-4
+batch_size: 256
+state_emb_dim: 256
+
+#exclude_encoding: [daemo_weight, daemo_height, daemo_age, daemo_sex]
+
+predictor_horizon: 16
+
+state_encoder_cfg:
+  hidden_dims: [128, 128]
+  layer_norm_hidden: True
+  layer_norm_out: True
+  activation: mish
+
+idm_net_cfg:
+  hidden_dims: [64, 64]
+  layer_norm_hidden: True
+  activation: mish
+
+bc_net_cfg:
+  hidden_dims: [64, 64]
+  layer_norm_hidden: True
+  activation: mish
+
+dynamics_model_cfg:
+  hidden_dims: [256, 256, 256]
+  k_ensemble: 5
+  layer_norm_hidden: True
+  activation: mish
+
+loss_cfg:
+  sim_loss_type: "huber"           # "l2" or "huber"
+  lambda_pred: 1              # weight on prediction loss
+#  reg:
+#    kind: vicreg
+#    var_alpha: 25
+#    cov_beta: 5
+#    eps: 1.0e-6
+#  reg:
+#    kind: sigreg
+#    lambda_sigreg: 0.01
+#    num_projections: 512
+#    num_frequencies: 17
+#    t_max: 5.0
+#    eps: 1.0e-6
+  reg:
+    kind: rdmreg
+    lambda_rdmreg: 0.8
+    num_projections: 512
+    p: 2.0
+    mu: 0.0
+    sigma: null
+    rectify_features: true
+    eps: 1.0e-6
+
+
+
+
+  lambda_idm_cont: 1.0
+  lambda_idm_disc: 0.1
+  lambda_time_sim: 5.0

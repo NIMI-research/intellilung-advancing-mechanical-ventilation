@@ -1,0 +1,10 @@
+{
+    "vital_co": {
+        "unit": "ml",
+        "scale": 1000
+    }, 
+    "blood_hb": {
+        "unit": "mmol/L",
+        "scale": 0.06206
+    }
+}

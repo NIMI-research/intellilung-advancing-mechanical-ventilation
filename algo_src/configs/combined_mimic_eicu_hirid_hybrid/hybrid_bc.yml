@@ -1,0 +1,11 @@
+project: "intellilung-rl"
+name: "Hybrid-BC"
+job_type: "rl_train"
+steps: 20_000
+eval_every: 1000
+log_every: 1000
+save_only_last_checkpoint: True
+root_path: logs
+lr: !!float 1e-5
+batch_size: 2048
+layers: [256, 256, 256, 256]

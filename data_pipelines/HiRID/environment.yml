@@ -1,0 +1,17 @@
+name: IntelliLungEU_HiRID_Env
+channels:
+  - defaults
+dependencies:
+  - python=3.10.16
+  - pip
+  - pip:
+      - numpy==2.2.1
+      - pandas==2.2.3
+      - pyarrow==18.1.0
+      - pydantic-settings==2.7.1
+      - python-dotenv==1.0.1
+      - scipy==1.15.1
+      - tqdm==4.67.1
+      - ipykernel==6.29.5
+      - pyspark==3.5.4
+      - polars==1.23.0

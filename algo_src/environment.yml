@@ -1,0 +1,38 @@
+name: IntelliLungEUEnv
+channels:
+  - rapidsai
+  - nvidia
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - cuda-version=11.8
+
+  # RAPIDS
+  - cuml=25.06.*
+
+  # Keep the scientific stack on conda to avoid ABI/mixed-install issues
+  - numpy<2
+  - pandas
+  - scikit-learn
+  - pyarrow
+
+  # Common tooling (also on conda)
+  - matplotlib
+  - seaborn
+  - pyyaml
+  - tqdm
+
+  - pip
+  - pip:
+      - pydantic_settings==2.7.0
+      - python-dotenv==0.21.0
+      - torch==2.8.0
+      - dill==0.3.8
+      - wandb==0.17.0
+      - fastapi[standard]==0.115.6
+      - pytest==8.3.4
+      - tensordict==0.9.1
+      - shap==0.46.0
+      - arm-pytorch-utilities==0.4.3
+      - git+https://github.com/galilai-group/lejepa.git

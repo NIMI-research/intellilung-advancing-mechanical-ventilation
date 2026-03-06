@@ -1,0 +1,1462 @@
+{
+    "Arterial Base Excess": {
+        "itemid": 224828,
+        "var": "blood_be",
+        "unit": null,
+        "th_low": -20.0,
+        "th_high": 30.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "HCO3 (serum)": {
+        "itemid": 227443,
+        "var": "blood_hco3",
+        "unit": null,
+        "th_low": 10.0,
+        "th_high": 45.0,
+        "prior": 4,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "PH (Arterial)": {
+        "itemid": 223830,
+        "var": "blood_ph",
+        "unit": null,
+        "th_low": 6.0,
+        "th_high": 8.0,
+        "prior": 7,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "PH (Venous)": {
+        "itemid": 220274,
+        "var": "blood_ph",
+        "unit": null,
+        "th_low": 6.0,
+        "th_high": 8.0,
+        "prior": 9,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Epinephrine": {
+        "itemid": 221289,
+        "var": "drugs_vaso4h",
+        "unit": "mg",
+        "th_low": 0.0,
+        "th_high": 5.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Norepinephrine": {
+        "itemid": 221906,
+        "var": "drugs_vaso4h",
+        "unit": "mg",
+        "th_low": 0.0,
+        "th_high": 5.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Phenylephrine": {
+        "itemid": 221749,
+        "var": "drugs_vaso4h",
+        "unit": "mg",
+        "th_low": 0.0,
+        "th_high": 5.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Phenylephrine (50/250)": {
+        "itemid": 229630,
+        "var": "drugs_vaso4h",
+        "unit": "mg",
+        "th_low": 0.0,
+        "th_high": 5.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Phenylephrine (200/250)": {
+        "itemid": 229632,
+        "var": "drugs_vaso4h",
+        "unit": "mg",
+        "th_low": 0.0,
+        "th_high": 5.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Dopamine": {
+        "itemid": 221662,
+        "var": "drugs_vaso4h",
+        "unit": "mg",
+        "th_low": 0.0,
+        "th_high": 5.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Vasopressin": {
+        "itemid": 222315,
+        "var": "drugs_vaso4h",
+        "unit": "units",
+        "th_low": 0.0,
+        "th_high": 5.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Angiotensin II (Giapreza)-2": {
+        "itemid": 229764,
+        "var": "drugs_vaso4h",
+        "unit": "ng",
+        "th_low": 0.0,
+        "th_high": 5.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Angiotensin II (Giapreza)-1": {
+        "itemid": 229709,
+        "var": "drugs_vaso4h",
+        "unit": "mg",
+        "th_low": 0.0,
+        "th_high": 5.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Arterial Blood Pressure mean": {
+        "itemid": 220052,
+        "var": "vital_map",
+        "unit": "mmHg",
+        "th_low": 30.0,
+        "th_high": 200.0,
+        "prior": 1,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Non Invasive Blood Pressure mean": {
+        "itemid": 220181,
+        "var": "vital_map",
+        "unit": "mmHg",
+        "th_low": 30.0,
+        "th_high": 200.0,
+        "prior": 4,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Pulmonary Artery Pressure mean": {
+        "itemid": 220061,
+        "var": "vital_mpap",
+        "unit": "mmHg",
+        "th_low": 10.0,
+        "th_high": 80.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Arterial Blood Pressure diastolic": {
+        "itemid": 220051,
+        "var": "vital_DBP",
+        "unit": "mmHg",
+        "th_low": 20.0,
+        "th_high": 120.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Manual Blood Pressure Diastolic Right": {
+        "itemid": 227242,
+        "var": "vital_DBP",
+        "unit": "mmHg",
+        "th_low": 20.0,
+        "th_high": 120.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Manual Blood Pressure Diastolic Left": {
+        "itemid": 224643,
+        "var": "vital_DBP",
+        "unit": "mmHg",
+        "th_low": 20.0,
+        "th_high": 120.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Arterial Blood Pressure systolic": {
+        "itemid": 220050,
+        "var": "vital_SBP",
+        "unit": "mmHg",
+        "th_low": 50.0,
+        "th_high": 260.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Total Peripheral Resistance Index (TPRI) (NICOM)": {
+        "itemid": 228382,
+        "var": "vital_SVRI",
+        "unit": "dynes*sec/cm5/m2",
+        "th_low": 500.0,
+        "th_high": 5000.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "INR": {
+        "itemid": 227467,
+        "var": "blood_INR",
+        "unit": null,
+        "th_low": 0.9,
+        "th_high": 15.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "PTT": {
+        "itemid": 227466,
+        "var": "blood_PTT",
+        "unit": null,
+        "th_low": 20.0,
+        "th_high": 120.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Daily Weight": {
+        "itemid": 224639,
+        "var": "daemo_weight",
+        "unit": "kg",
+        "th_low": 40.0,
+        "th_high": 140.0,
+        "prior": 6,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Admission Weight (lbs.)": {
+        "itemid": 226531,
+        "var": "daemo_weight",
+        "unit": null,
+        "th_low": 40.0,
+        "th_high": 140.0,
+        "prior": 6,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Admission Weight (Kg)": {
+        "itemid": 226512,
+        "var": "daemo_weight",
+        "unit": "kg",
+        "th_low": 40.0,
+        "th_high": 140.0,
+        "prior": 6,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Height (cm)": {
+        "itemid": 226730,
+        "var": "daemo_height",
+        "unit": "cm",
+        "th_low": 155.0,
+        "th_high": 200.0,
+        "prior": 6,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Height": {
+        "itemid": 226707,
+        "var": "daemo_height",
+        "unit": "Inch",
+        "th_low": 155.0,
+        "th_high": 200.0,
+        "prior": 6,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Discharge from ICU": {
+        "itemid": 228689,
+        "var": "daemo_discharge",
+        "unit": null,
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Discharge NCP - Goal": {
+        "itemid": 228995,
+        "var": "daemo_discharge",
+        "unit": null,
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "ECMO": {
+        "itemid": 224660,
+        "var": "ecmo_bloodflow",
+        "unit": "L/min",
+        "th_low": 0.0,
+        "th_high": 7.0,
+        "prior": 1,
+        "set": 3,
+        "table": "chartevents"
+    },
+    "Flow (ECMO)": {
+        "itemid": 229270,
+        "var": "ecmo_bloodflow",
+        "unit": "L/min",
+        "th_low": 0.0,
+        "th_high": 7.0,
+        "prior": 1,
+        "set": 3,
+        "table": "chartevents"
+    },
+    "Speed (CH)": {
+        "itemid": 229845,
+        "var": "ecmo_rpm",
+        "unit": "RPM",
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": 3,
+        "table": "chartevents"
+    },
+    "Speed (ECMO)": {
+        "itemid": 229277,
+        "var": "ecmo_rpm",
+        "unit": "RPM",
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": 3,
+        "table": "chartevents"
+    },
+    "Sweep (CH)": {
+        "itemid": 229846,
+        "var": "ecmo_sweep",
+        "unit": null,
+        "th_low": 0.0,
+        "th_high": 12.0,
+        "prior": 1,
+        "set": 3,
+        "table": "chartevents"
+    },
+    "Calcium non-ionized": {
+        "itemid": 225625,
+        "var": "blood_calcium",
+        "unit": null,
+        "th_low": 0.2,
+        "th_high": 5.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Chloride (whole blood)": {
+        "itemid": 226536,
+        "var": "blood_calcium",
+        "unit": null,
+        "th_low": 0.2,
+        "th_high": 5.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Chloride (serum)": {
+        "itemid": 220602,
+        "var": "blood_chlorid",
+        "unit": null,
+        "th_low": 80.0,
+        "th_high": 150.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Ionized Calcium": {
+        "itemid": 225667,
+        "var": "blood_caion",
+        "unit": null,
+        "th_low": 0.5,
+        "th_high": 2.5,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Magnesium": {
+        "itemid": 220635,
+        "var": "blood_magnes",
+        "unit": null,
+        "th_low": 0.5,
+        "th_high": 5.0,
+        "prior": 2,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Potassium (serum)": {
+        "itemid": 227442,
+        "var": "blood_potas",
+        "unit": null,
+        "th_low": 2.0,
+        "th_high": 10.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Potassium (whole blood)": {
+        "itemid": 227464,
+        "var": "blood_potas",
+        "unit": null,
+        "th_low": 2.0,
+        "th_high": 10.0,
+        "prior": 2,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "PotassiumApacheIIValue": {
+        "itemid": 226772,
+        "var": "blood_potas",
+        "unit": null,
+        "th_low": 2.0,
+        "th_high": 10.0,
+        "prior": 7,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Sodium (serum)": {
+        "itemid": 220645,
+        "var": "blood_sodium",
+        "unit": null,
+        "th_low": 120.0,
+        "th_high": 180.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Sodium (whole blood)": {
+        "itemid": 226534,
+        "var": "blood_sodium",
+        "unit": null,
+        "th_low": 120.0,
+        "th_high": 180.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Central Venous Pressure": {
+        "itemid": 220074,
+        "var": "vital_cvp",
+        "unit": "mmHg",
+        "th_low": -4.0,
+        "th_high": 25.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "chartevents"
+    },
+    "Hemodialysis Output": {
+        "itemid": 226499,
+        "var": "state_cumfluids",
+        "unit": "mL",
+        "th_low": -10000.0,
+        "th_high": 20000.0,
+        "prior": 2,
+        "set": "2b",
+        "table": "chartevents"
+    },
+    "NaCl 0.9%": {
+        "itemid": 225158,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "NaCl 0.45%": {
+        "itemid": 225159,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "NaCl 3% (Hypertonic Saline)": {
+        "itemid": 225161,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "NaCl 23.4%": {
+        "itemid": 228341,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Dextrose 5%": {
+        "itemid": 220949,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Dextrose 10%": {
+        "itemid": 220950,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Dextrose 50%": {
+        "itemid": 220952,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Free Water": {
+        "itemid": 225797,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "D5 1/2NS": {
+        "itemid": 225823,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "D5NS": {
+        "itemid": 225825,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "D5LR": {
+        "itemid": 225827,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "LR": {
+        "itemid": 225828,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "D5 1/4NS": {
+        "itemid": 225941,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Sterile Water": {
+        "itemid": 225944,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Sodium Bicarbonate 8.4% (Amp)": {
+        "itemid": 227533,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Dextrose 20%": {
+        "itemid": 228140,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Dextrose 30%": {
+        "itemid": 228141,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Dextrose 40%": {
+        "itemid": 228142,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Albumin 25%": {
+        "itemid": 220862,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Albumin 5%": {
+        "itemid": 220864,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Fresh Frozen Plasma": {
+        "itemid": 220970,
+        "var": "blood_ffp",
+        "unit": "mL",
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": "2a",
+        "table": "inputevents"
+    },
+    "Packed Red Blood Cells": {
+        "itemid": 225168,
+        "var": "blood_prbc",
+        "unit": "mL",
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": "2a",
+        "table": "inputevents"
+    },
+    "Cryoprecipitate": {
+        "itemid": 225171,
+        "var": "blood_ffp",
+        "unit": "mL",
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": "2a",
+        "table": "inputevents"
+    },
+    "Cell Saver": {
+        "itemid": 225173,
+        "var": "blood_prbc",
+        "unit": "mL",
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": "2a",
+        "table": "inputevents"
+    },
+    "Hetastarch (Hespan) 6%": {
+        "itemid": 225174,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Dextran 40": {
+        "itemid": 225795,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "KCL (Bolus)": {
+        "itemid": 227522,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "Calcium Gluconate (Bolus)": {
+        "itemid": 229640,
+        "var": "state_ivfluid4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 20000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "inputevents"
+    },
+    "EtCO2": {
+        "itemid": 228640,
+        "var": "vent_etco2",
+        "unit": null,
+        "th_low": 20.0,
+        "th_high": 100.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Arterial CO2 Pressure": {
+        "itemid": 220235,
+        "var": "blood_paco2",
+        "unit": "mmHg",
+        "th_low": 20.0,
+        "th_high": 100.0,
+        "prior": 2,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Arterial O2 pressure": {
+        "itemid": 220224,
+        "var": "blood_pao2",
+        "unit": "mmHg",
+        "th_low": 20.0,
+        "th_high": 600.0,
+        "prior": 2,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Inspired O2 Fraction": {
+        "itemid": 223835,
+        "var": "vent_fio2",
+        "unit": null,
+        "th_low": 21.0,
+        "th_high": 100.0,
+        "prior": 2,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "FiO2 (CH)": {
+        "itemid": 229841,
+        "var": "vent_fio2",
+        "unit": "%",
+        "th_low": 21.0,
+        "th_high": 100.0,
+        "prior": 2,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "FiO2 (ECMO)": {
+        "itemid": 229280,
+        "var": "vent_fio2",
+        "unit": "%",
+        "th_low": 21.0,
+        "th_high": 100.0,
+        "prior": 2,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "O2 saturation pulseoxymetry": {
+        "itemid": 220277,
+        "var": "vital_spo2",
+        "unit": "%",
+        "th_low": 30.0,
+        "th_high": 100.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Arterial O2 Saturation": {
+        "itemid": 220227,
+        "var": "blood_sao2",
+        "unit": "%",
+        "th_low": 40.0,
+        "th_high": 100.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "SvO2 Calibrated": {
+        "itemid": 227541,
+        "var": "blood_svo2",
+        "unit": null,
+        "th_low": 20.0,
+        "th_high": 90.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "datetimeevents"
+    },
+    "SvO2": {
+        "itemid": 223772,
+        "var": "blood_svo2",
+        "unit": "%",
+        "th_low": 20.0,
+        "th_high": 90.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "ScvO2 Central Venous O2% Sat": {
+        "itemid": 226541,
+        "var": "blood_sco2",
+        "unit": null,
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "ScvO2 (Presep) Calibrated": {
+        "itemid": 227542,
+        "var": "blood_sco2",
+        "unit": null,
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": "2a",
+        "table": "datetimeevents"
+    },
+    "ScvO2 (Presep)": {
+        "itemid": 227549,
+        "var": "blood_sco2",
+        "unit": "%",
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Mixed Venous O2% Sat": {
+        "itemid": 225674,
+        "var": "blood_smvo2",
+        "unit": "%",
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Platelet Count": {
+        "itemid": 227457,
+        "var": "blood_plat",
+        "unit": null,
+        "th_low": 10.0,
+        "th_high": 1500.0,
+        "prior": 3,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Hemoglobin": {
+        "itemid": 220228,
+        "var": "blood_hb",
+        "unit": "g/dl",
+        "th_low": 2.0,
+        "th_high": 20.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Hematocrit (serum)": {
+        "itemid": 220545,
+        "var": "blood_hct",
+        "unit": null,
+        "th_low": 15.0,
+        "th_high": 80.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "WBC": {
+        "itemid": 220546,
+        "var": "blood_wbc",
+        "unit": null,
+        "th_low": 0.0,
+        "th_high": 30.0,
+        "prior": 2,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Cardiac Output (thermodilution)": {
+        "itemid": 220088,
+        "var": "vital_co",
+        "unit": "L/min",
+        "th_low": 1000.0,
+        "th_high": 25000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "chartevents"
+    },
+    "CO (Arterial)": {
+        "itemid": 227543,
+        "var": "vital_co",
+        "unit": "L/min",
+        "th_low": 1000.0,
+        "th_high": 25000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "chartevents"
+    },
+    "Heart Rate": {
+        "itemid": 220045,
+        "var": "vital_hr",
+        "unit": "bpm",
+        "th_low": 20.0,
+        "th_high": 200.0,
+        "prior": 5,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "BUN": {
+        "itemid": 225624,
+        "var": "state_bun",
+        "unit": null,
+        "th_low": 1.0,
+        "th_high": 10.0,
+        "prior": 2,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Creatinine (serum)": {
+        "itemid": 220615,
+        "var": "blood_crea",
+        "unit": null,
+        "th_low": 30.0,
+        "th_high": 450.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Creatinine_ApacheIV": {
+        "itemid": 227005,
+        "var": "blood_crea",
+        "unit": null,
+        "th_low": 30.0,
+        "th_high": 450.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Creatinine (whole blood)": {
+        "itemid": 229761,
+        "var": "blood_crea",
+        "unit": null,
+        "th_low": 30.0,
+        "th_high": 450.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "R Ureteral Stent": {
+        "itemid": 226557,
+        "var": "state_urin4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 2000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "outputevents"
+    },
+    "L Ureteral Stent": {
+        "itemid": 226558,
+        "var": "state_urin4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 2000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "outputevents"
+    },
+    "Foley Catheter": {
+        "itemid": 229351,
+        "var": "state_urin4h",
+        "unit": null,
+        "th_low": 0.0,
+        "th_high": 2000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "procedureevents"
+    },
+    "Void": {
+        "itemid": 226560,
+        "var": "state_urin4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 2000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "outputevents"
+    },
+    "Condom Cath": {
+        "itemid": 226561,
+        "var": "state_urin4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 2000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "outputevents"
+    },
+    "Suprapubic": {
+        "itemid": 226563,
+        "var": "state_urin4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 2000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "outputevents"
+    },
+    "R Nephrostomy": {
+        "itemid": 226564,
+        "var": "state_urin4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 2000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "outputevents"
+    },
+    "L Nephrostomy": {
+        "itemid": 226565,
+        "var": "state_urin4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 2000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "outputevents"
+    },
+    "Straight Cath": {
+        "itemid": 226567,
+        "var": "state_urin4h",
+        "unit": "mL",
+        "th_low": 0.0,
+        "th_high": 2000.0,
+        "prior": 1,
+        "set": "2b",
+        "table": "outputevents"
+    },
+    "Albumin": {
+        "itemid": 227456,
+        "var": "blood_album",
+        "unit": null,
+        "th_low": 5.0,
+        "th_high": 50.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "AST": {
+        "itemid": 220587,
+        "var": "blood_ast",
+        "unit": null,
+        "th_low": 0.1,
+        "th_high": 100.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "ALT": {
+        "itemid": 220644,
+        "var": "blood_alt",
+        "unit": null,
+        "th_low": 0.1,
+        "th_high": 100.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Total Bilirubin": {
+        "itemid": 225690,
+        "var": "blood_billi",
+        "unit": null,
+        "th_low": 5.0,
+        "th_high": 500.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Lactic Acid": {
+        "itemid": 225668,
+        "var": "blood_lac",
+        "unit": null,
+        "th_low": 0.2,
+        "th_high": 30.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Glucose (serum)": {
+        "itemid": 220621,
+        "var": "blood_gluco",
+        "unit": null,
+        "th_low": 2.0,
+        "th_high": 40.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Temperature Fahrenheit": {
+        "itemid": 223761,
+        "var": "state_temp",
+        "unit": "\u00b0F",
+        "th_low": 30.0,
+        "th_high": 43.0,
+        "prior": 6,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Temperature Celsius": {
+        "itemid": 223762,
+        "var": "state_temp",
+        "unit": "\u00b0C",
+        "th_low": 30.0,
+        "th_high": 43.0,
+        "prior": 6,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Expiratory Ratio": {
+        "itemid": 226871,
+        "var": "vent_inspexp",
+        "unit": null,
+        "th_low": 0.25,
+        "th_high": 4.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Inspiratory Time": {
+        "itemid": 224738,
+        "var": "vent_insp",
+        "unit": "sec",
+        "th_low": null,
+        "th_high": null,
+        "prior": 3,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Peak Insp. Pressure": {
+        "itemid": 224695,
+        "var": "vent_pinsp",
+        "unit": "cmH2O",
+        "th_low": 10.0,
+        "th_high": 60.0,
+        "prior": 6,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Plateau Pressure": {
+        "itemid": 224696,
+        "var": "vent_pinsp",
+        "unit": "cmH2O",
+        "th_low": 10.0,
+        "th_high": 60.0,
+        "prior": 4,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Pinsp (Draeger only)": {
+        "itemid": 227187,
+        "var": "vent_pinsp",
+        "unit": "cmH2O",
+        "th_low": 10.0,
+        "th_high": 60.0,
+        "prior": 1,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Pinsp (Hamilton)": {
+        "itemid": 229663,
+        "var": "vent_pinsp",
+        "unit": "cmH2O",
+        "th_low": 10.0,
+        "th_high": 60.0,
+        "prior": 1,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Invasive Ventilation": {
+        "itemid": 225792,
+        "var": "vent_invas",
+        "unit": null,
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": 1,
+        "table": "procedureevents"
+    },
+    "Mean Airway Pressure": {
+        "itemid": 224697,
+        "var": "vent_mairpress",
+        "unit": "cmH2O",
+        "th_low": 5.0,
+        "th_high": 55.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Minute Volume": {
+        "itemid": 224687,
+        "var": "vent_mv",
+        "unit": "L/min",
+        "th_low": 2.4,
+        "th_high": 40.0,
+        "prior": 2,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "PEEP set": {
+        "itemid": 220339,
+        "var": "vent_peep",
+        "unit": "cmH2O",
+        "th_low": 0.0,
+        "th_high": 50.0,
+        "prior": 3,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Total PEEP Level": {
+        "itemid": 224700,
+        "var": "vent_peep",
+        "unit": "cmH2O",
+        "th_low": 0.0,
+        "th_high": 50.0,
+        "prior": 1,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Respiratory Rate": {
+        "itemid": 220210,
+        "var": "vent_rrtot",
+        "unit": "insp/min",
+        "th_low": 3.0,
+        "th_high": 60.0,
+        "prior": 2,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Respiratory Rate (Total)": {
+        "itemid": 224690,
+        "var": "vent_rrtot",
+        "unit": "insp/min",
+        "th_low": 3.0,
+        "th_high": 60.0,
+        "prior": 2,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Respiratory Rate (Set)": {
+        "itemid": 224688,
+        "var": "vent_rrcontrolled",
+        "unit": "insp/min",
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Respiratory Rate (spontaneous)": {
+        "itemid": 224689,
+        "var": "vent_rrspont",
+        "unit": "insp/min",
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Spont RR": {
+        "itemid": 224422,
+        "var": "vent_rrspont",
+        "unit": "bpm",
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "PSV Level": {
+        "itemid": 224701,
+        "var": "vent_suppress",
+        "unit": "cmH2O",
+        "th_low": 0.0,
+        "th_high": 30.0,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Spont Vt": {
+        "itemid": 224421,
+        "var": "vent_vt",
+        "unit": "mL",
+        "th_low": 80.0,
+        "th_high": 2040.0,
+        "prior": 15,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Tidal Volume (set)": {
+        "itemid": 224684,
+        "var": "vent_vt",
+        "unit": "mL",
+        "th_low": 80.0,
+        "th_high": 2040.0,
+        "prior": 12,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Tidal Volume (observed)": {
+        "itemid": 224685,
+        "var": "vent_vt",
+        "unit": "mL",
+        "th_low": 80.0,
+        "th_high": 2040.0,
+        "prior": 5,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Tidal Volume (spontaneous)": {
+        "itemid": 224686,
+        "var": "vent_vt",
+        "unit": "mL",
+        "th_low": 80.0,
+        "th_high": 2040.0,
+        "prior": 15,
+        "set": 1,
+        "table": "chartevents"
+    },
+    "Ventilator Mode": {
+        "itemid": 223849,
+        "var": "vent_mode",
+        "unit": null,
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": "1 (2a)",
+        "table": "chartevents"
+    },
+    "Ventilator Mode (Hamilton)": {
+        "itemid": 229314,
+        "var": "vent_mode",
+        "unit": null,
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": "1 (2a)",
+        "table": "chartevents"
+    },
+    "Extubation": {
+        "itemid": 227194,
+        "var": "state_airtype",
+        "unit": null,
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": "2a",
+        "table": "procedureevents"
+    },
+    "Airway Type": {
+        "itemid": 223836,
+        "var": "state_airtype",
+        "unit": null,
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Trach Tube Type": {
+        "itemid": 224829,
+        "var": "state_airtype",
+        "unit": null,
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "O2 Delivery Device(s)": {
+        "itemid": 226732,
+        "var": "state_airtype",
+        "unit": null,
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": "2a",
+        "table": "chartevents"
+    },
+    "Percutaneous Tracheostomy": {
+        "itemid": 225448,
+        "var": "state_airtype",
+        "unit": null,
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": "2a",
+        "table": "procedureevents"
+    },
+    "Open Tracheostomy": {
+        "itemid": 226237,
+        "var": "state_airtype",
+        "unit": null,
+        "th_low": null,
+        "th_high": null,
+        "prior": 1,
+        "set": "2a",
+        "table": "procedureevents"
+    }
+}

@@ -1,0 +1,37 @@
+project: "intellilung-rl"
+name: "Hybrid-EDAC"
+job_type: "rl_train"
+steps: 100_000
+eval_every: 10_000
+log_every: 100
+checkpoint_every: 25_000
+#save_only_last_checkpoint: True
+root_path: logs
+
+batch_size: 512
+gamma: 0.99
+
+targ_entropy_scale_cont: -0.3
+targ_entropy_scale_disc: 0.3
+
+device: cuda
+
+
+actor_learning_rate: 3e-4
+alpha_learning_rate: 3e-4
+
+
+critic_learning_rate: 3e-5
+deterministic_torch: false
+eta: 0
+hidden_dims: [256, 256, 256]
+max_action: 1.0
+
+num_critics: 2
+tau: 0.005
+
+log_std_max: 1
+log_std_min: -3
+
+
+

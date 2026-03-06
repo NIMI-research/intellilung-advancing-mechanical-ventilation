@@ -1,0 +1,27 @@
+project: "intellilung-rl"
+name: "Hybrid-IQL"
+job_type: "rl_train"
+steps: 50_000
+eval_every: 500
+log_every: 100
+checkpoint_every: 25000
+save_only_last_checkpoint: True
+root_path: logs
+
+state_encoder_path: "logs/PLDM-2026-03-05 16:21:20.917470"
+concat_raw_states_with_embeddings: False
+
+batch_size: 1024
+discount: 0.99
+tau: 0.005
+
+iql_deterministic: false
+iql_tau: 0.9
+beta: 25
+
+hidden_dims: [64, 64, 64]
+
+qf_lr: 1e-4
+actor_lr: 1e-4
+vf_lr: 1e-4
+

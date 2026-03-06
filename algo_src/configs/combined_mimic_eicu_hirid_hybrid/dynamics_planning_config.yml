@@ -1,0 +1,23 @@
+project: "intellilung-rl"
+name: "DynamicsPlanner"
+job_type: "rl_train"
+steps: 10_000
+eval_every: 100
+log_every: 10
+save_only_last_checkpoint: True
+checkpoint_every: 3_000
+root_path: logs
+
+lr: !!float 1e-4
+batch_size: 256
+hidden_dims: [256, 256, 256, 256]
+
+predictor_horizon: 16
+ensemble_size: 5
+
+loss_cfg:
+  sim_loss_type: "huber"           # "l2" or "huber"
+
+  lambda_dyn: 1.0
+  lambda_idm_cont: 1.0
+  lambda_idm_disc: 0.01

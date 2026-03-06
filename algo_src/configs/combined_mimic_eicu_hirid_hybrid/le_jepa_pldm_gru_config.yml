@@ -1,0 +1,33 @@
+project: "intellilung-rl"
+name: "LePLDMGRU"
+job_type: "rl_train"
+steps: 20_000
+eval_every: 100
+log_every: 10
+save_only_last_checkpoint: True
+checkpoint_every: 3_000
+root_path: logs
+
+lr: !!float 1e-4
+batch_size: 256
+hidden_dims: [128, 128, 128, 128]
+state_emb_dim: 128
+
+predictor_horizon: 16
+ensemble_size: 5
+
+loss_cfg:
+  # JEPA latent prediction loss
+  sim_loss_type: "huber"           # "l2" or "huber"
+
+  # LeJEPA weights
+  lambda_pred: 0.7              # weight on prediction loss
+  lambda_sigreg: 1            # weight on SIGReg (isotropic Gaussian)
+
+  # SIGReg hyperparameters
+  sigreg_num_projections: 512
+  sigreg_num_frequencies: 17
+  sigreg_t_max: 5.0
+  sigreg_eps: 1.0e-6
+  lambda_idm_cont: 1.0
+  lambda_idm_disc: 0.05

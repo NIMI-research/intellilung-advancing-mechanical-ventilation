@@ -1,0 +1,96 @@
+{
+  "root_path": "/data/cat/ws/muyo366f-walrus/logs",
+  "tune_configs": [
+    {
+      "number_of_evaluations": 2,
+      "base_algo_config_path": "configs/combined_mimic_eicu_hirid_hybrid/hybrid_iql_configs.yml",
+      "fqe_config_path": "configs/combined_mimic_eicu_hirid/dist_fqe_config.yml",
+      "dataset_config_path": "configs/combined_mimic_eicu_hirid_hybrid/dataset_config.yml",
+      "tune": [
+        {
+          "params": [
+            "steps"
+          ],
+          "values": [
+            25000,
+            100000,
+            50000,
+            200000
+          ]
+        },
+        {
+          "params": [
+            "qf_lr",
+            "actor_lr",
+            "vf_lr"
+          ],
+          "values": [
+            1e-3,
+            1e-4,
+            1e-5,
+            1e-6
+          ]
+        },
+        {
+          "params": [
+            "iql_tau"
+          ],
+          "values": [
+            0.9,
+            0.8,
+            0.7
+          ]
+        },
+        {
+          "params": [
+            "beta"
+          ],
+          "values": [
+            5,
+            10,
+            25
+          ]
+        },
+        {
+          "params": [
+            "hidden_dims"
+          ],
+          "values": [
+            [
+              256,
+              256,
+              256,
+              256
+            ],
+            [
+              128,
+              128,
+              128
+            ],
+            [
+              64,
+              64,
+              64
+            ]
+          ]
+        },
+        {
+          "params": [
+            "concat_raw_states_with_embeddings"
+          ],
+          "values": [
+            false
+          ]
+        },
+        {
+          "params": [
+            "state_encoder_path"
+          ],
+          "values": [
+            "logs/PLDM-2026-02-20 14:09:21.383736"
+          ]
+        }
+      ]
+    }
+  ]
+}

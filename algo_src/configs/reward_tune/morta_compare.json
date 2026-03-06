@@ -1,0 +1,88 @@
+{
+  "number_of_evaluations": 5,
+  "rewards": [
+    {
+      "reward_fns": [
+        {
+          "normalize": true,
+          "time_penalty": true,
+          "ranges_file_path": "configs/state_vector_ranges_for_reward.json",
+          "state_vector_ranges": {
+            "blood_ph": {
+              "priority": 2,
+              "range": [
+                7.3,
+                7.45
+              ]
+            },
+            "vital_map": {
+              "priority": 1,
+              "range": [
+                60,
+                109
+              ]
+            },
+            "blood_pao2": {
+              "priority": 2,
+              "range": [
+                55,
+                80
+              ]
+            },
+            "blood_sao2": {
+              "priority": 2,
+              "range": [
+                88,
+                96
+              ]
+            },
+            "vital_hr": {
+              "priority": 1,
+              "range": [
+                70,
+                109
+              ]
+            },
+            "blood_paco2": {
+              "priority": 2,
+              "range": [
+                28,
+                55
+              ]
+            },
+            "vital_spo2": {
+              "priority": 2,
+              "range": [
+                88,
+                96
+              ]
+            },
+            "vent_etco2": {
+              "priority": 2,
+              "range": [
+                34,
+                45
+              ]
+            }
+          }
+        },
+        {
+          "patient_alive_col": "daemo_discharge",
+          "pause_until_next_mv_col": "pause_until_next",
+          "mv_duration_col": "mv_duration",
+          "post_extubation_interval_col": "post_extubation_interval",
+          "min_reward": 0.0,
+          "max_reward": 0.5
+        }
+      ]
+    },
+    {
+      "reward_fns": [
+        {
+          "patient_alive_col": "daemo_discharge",
+          "morta_reward_scale": 100.0
+        }
+      ]
+    }
+  ]
+}

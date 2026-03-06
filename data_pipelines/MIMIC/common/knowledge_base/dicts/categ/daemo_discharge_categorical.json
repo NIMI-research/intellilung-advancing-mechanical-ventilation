@@ -1,0 +1,9 @@
+{
+    "daemo_discharge": {
+        "0": "No",
+        "1": "Yes",
+        "2": "Patient / family actively involved with discharge planning from the ICU",
+        "3": "---",
+        "4": "Other"
+    }
+}

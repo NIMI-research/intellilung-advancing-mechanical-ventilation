@@ -1,0 +1,16 @@
+{
+    "vital_spo2": {
+    "priority": 2,
+    "range": [
+      92,
+      96
+    ]
+  },
+    "blood_pao2": {
+    "priority": 2,
+    "range": [
+      55,
+      80
+    ]
+  }
+}

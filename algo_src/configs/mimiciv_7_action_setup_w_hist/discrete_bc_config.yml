@@ -1,0 +1,13 @@
+project: "intellilung-rl"
+name: "DiscreteBehaviorCloning"
+job_type: "rl_train"
+steps: 25_000
+eval_every: 5000
+log_every: 100
+checkpoint_every: 5000
+save_only_last_checkpoint: False
+root_path: logs
+lr: 1e-5
+weight_decay: 1e-6
+batch_size: 1024
+hidden_dims: [128, 128, 128]

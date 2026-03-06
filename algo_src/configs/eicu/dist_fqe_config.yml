@@ -1,0 +1,14 @@
+project: "intellilung-rl"
+job_type: "rl_eval"
+name: "Dist-fqe"
+steps: 80_000
+eval_every: 5000
+log_every: 1000
+checkpoint_every: 20_000
+discount: 0.99
+lr: !!float 1e-4
+hidden_dims: [256, 256, 256]
+batch_size: 1280
+tau: !!float 5e-3
+save_only_last_checkpoint: True
+weight_decay: !!float 1e-5

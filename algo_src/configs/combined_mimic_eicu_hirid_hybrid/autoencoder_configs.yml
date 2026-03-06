@@ -1,0 +1,12 @@
+project: "intellilung-rl"
+name: "Hybrid-Autencoder"
+job_type: "OOD_Algo_Train"
+steps: 200_000
+eval_every: 1000
+log_every: 1000
+save_only_last_checkpoint: True
+root_path: logs
+lr: !!float 1e-3
+batch_size: 2048
+encoder_layers: [64, 48, 32, 16]
+decoder_layers: [32, 48, 64]

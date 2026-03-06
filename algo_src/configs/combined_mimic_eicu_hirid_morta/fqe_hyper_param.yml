@@ -1,0 +1,12 @@
+job_type: "rl_eval"
+name: "factored-fqe"
+steps: 100_000
+eval_every: 1000
+log_every: 100
+checkpoint_every: 20_000
+gamma: 0.9
+lr: !!float 5e-5
+hidden_layers: [128, 128, 128]
+batch_size: 1280
+polyak_coef: !!float 5e-3
+save_only_last_checkpoint: True

@@ -1,0 +1,13 @@
+project: "intellilung-rl"
+name: "Discrete-Autencoder"
+job_type: "OOD_Algo_Train"
+steps: 1000
+eval_every: 1
+log_every: 1
+checkpoint_every: 1000
+root_path: logs
+lr: !!float 1e-3
+batch_size: 2048
+encoder_layers: [32, 16, 8, 4]
+decoder_layers: [8, 16, 32]
+alpha: 0.97

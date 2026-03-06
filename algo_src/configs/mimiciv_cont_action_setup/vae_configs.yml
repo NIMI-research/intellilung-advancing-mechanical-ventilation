@@ -1,0 +1,12 @@
+project: "intellilung-rl"
+name: "VAE"
+job_type: "OOD_Algo_Train"
+steps: 200_000
+eval_every: 1000
+log_every: 1000
+save_only_last_checkpoint: True
+root_path: logs
+lr: !!float 1e-3
+batch_size: 2048
+encoder_layers: [32, 16, 8, 4]
+decoder_layers: [8, 16, 32]

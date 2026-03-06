@@ -1,0 +1,152 @@
+{
+  "root_path": "logs",
+  "tune_configs": [
+    {
+      "number_of_evaluations": 2,
+      "base_algo_config_path": "configs/combined_mimic_eicu_hirid/vanilla_cql_config.yml",
+      "fqe_config_path": "configs/combined_mimic_eicu_hirid/dist_fqe_config.yml",
+      "dataset_config_path": "configs/combined_mimic_eicu_hirid/dataset_config.yml",
+      "tune": [
+        {
+          "params": [
+            "lr"
+          ],
+          "values": [
+            1e-4,
+            1e-5,
+            1e-6
+          ]
+        },
+        {
+          "params": [
+            "alpha"
+          ],
+          "values": [
+            0.1,
+            0.5,
+            2.5
+          ]
+        },
+        {
+          "params": [
+            "hidden_layers"
+          ],
+          "values": [
+            [
+              256,
+              256,
+              256
+            ],
+            [
+              128,
+              128,
+              128
+            ],
+            [
+              64,
+              64
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number_of_evaluations": 2,
+      "base_algo_config_path": "configs/combined_mimic_eicu_hirid/c_cql_config.yml",
+      "fqe_config_path": "configs/combined_mimic_eicu_hirid/dist_fqe_config.yml",
+      "dataset_config_path": "configs/combined_mimic_eicu_hirid/dataset_config.yml",
+      "tune": [
+        {
+          "params": [
+            "lr"
+          ],
+          "values": [
+            1e-4,
+            1e-5,
+            1e-6
+          ]
+        },
+        {
+          "params": [
+            "alpha"
+          ],
+          "values": [
+            0.1,
+            0.5,
+            2.5
+          ]
+        },
+        {
+          "params": [
+            "hidden_layers"
+          ],
+          "values": [
+            [
+              256,
+              256,
+              256
+            ],
+            [
+              128,
+              128,
+              128
+            ],
+            [
+              64,
+              64
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number_of_evaluations": 2,
+      "base_algo_config_path": "configs/combined_mimic_eicu_hirid/cf_cql_config.yml",
+      "fqe_config_path": "configs/combined_mimic_eicu_hirid/dist_fqe_config.yml",
+      "dataset_config_path": "configs/combined_mimic_eicu_hirid/dataset_config.yml",
+      "tune": [
+        {
+          "params": [
+            "lr"
+          ],
+          "values": [
+            1e-4,
+            1e-5,
+            1e-6
+          ]
+        },
+        {
+          "params": [
+            "alpha"
+          ],
+          "values": [
+            0.1,
+            0.5,
+            2.5
+          ]
+        },
+        {
+          "params": [
+            "hidden_layers"
+          ],
+          "values": [
+            [
+              256,
+              256,
+              256
+            ],
+            [
+              128,
+              128,
+              128
+            ],
+            [
+              64,
+              64
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

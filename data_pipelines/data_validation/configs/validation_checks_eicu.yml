@@ -1,0 +1,53 @@
+minimum_episode_size: 4
+action_space:
+  - vent_rrtot
+  - vent_peep
+  - vent_fio2
+  - vent_vt_action
+  - vent_mode
+  - vent_pinsp-peep
+state_space:
+  - vital_spo2
+  - vital_DBP
+  - vital_hr
+  - daemo_sex
+  - blood_crea
+  - blood_hct
+  - blood_wbc
+  - state_urin4h
+  - blood_hco3
+  - blood_ast
+  - vital_SBP
+  - vent_pinsp
+  - blood_be
+  - state_temp
+  - blood_paco2
+  - blood_pao2
+  - blood_sao2
+  - blood_magnes
+  - vital_map
+  - blood_gluco
+  - drugs_vaso4h
+  - blood_sodium
+  - blood_ph
+  - blood_billi
+  - blood_potas
+  - daemo_height
+  - blood_INR
+  - blood_chlorid
+  - state_ivfluid4h
+  - blood_hb
+  - blood_alt
+  - daemo_weight
+  - blood_calcium
+  - daemo_age
+  - vent_vt_obs
+
+misc_required_variables:
+  - offset
+  - mv_duration
+  - daemo_discharge
+  - pause_until_next
+  - post_extubation_interval
+
+episode_id_column: episode_id

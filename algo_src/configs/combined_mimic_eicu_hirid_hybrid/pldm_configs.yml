@@ -1,0 +1,19 @@
+project: "intellilung-rl"
+name: "PLDM"
+job_type: "rl_train"
+steps: 30_000
+eval_every: 100
+log_every: 10
+save_only_last_checkpoint: False
+checkpoint_every: 3_000
+root_path: logs
+
+
+lr: !!float 1e-4
+batch_size: 256
+hidden_dims: [256, 256, 256, 256]
+state_emb_dim: 20
+
+predictor_horizon: 16
+ensemble_size: 5
+loss_cfg:

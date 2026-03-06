@@ -1,0 +1,17 @@
+project: "intellilung-rl"
+name: "factored-CQL"
+job_type: "rl_train"
+steps: 400_000
+eval_every: 5000
+log_every: 1000
+checkpoint_every: 50_000
+root_path: logs
+lr: !!float 1e-5
+gamma: 0.99
+batch_size: 256
+alpha: 1.0
+hidden_layers: [256, 256, 256, 256]
+clip_grad_max_norm: 0.01
+polyak_coef: !!float 5e-3
+eval_batch_size: 1000
+save_only_last_checkpoint: False

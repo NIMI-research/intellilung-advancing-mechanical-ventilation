@@ -1,0 +1,194 @@
+{
+    "blood_PTT": [
+        "s"
+    ],
+    "blood_album": [
+        "g/l"
+    ],
+    "blood_alt": [
+        "umol/s/l"
+    ],
+    "blood_ast": [
+        "umol/s/l"
+    ],
+    "blood_be": [
+        "mmol/l"
+    ],
+    "blood_billi": [
+        "umol/l"
+    ],
+    "blood_caion": [
+        "mmol/l"
+    ],
+    "blood_calcium": [
+        "mmol/l"
+    ],
+    "blood_chlorid": [
+        "mmol/l"
+    ],
+    "blood_crea": [
+        "umol/l"
+    ],
+    "blood_ffp": [
+        "ml"
+    ],
+    "blood_gluco": [
+        "mmol/l"
+    ],
+    "blood_hb": [
+        "mmol/l"
+    ],
+    "blood_hco3": [
+        "mmol/l"
+    ],
+    "blood_hco3st": [
+        "mmol/l"
+    ],
+    "blood_hct": [
+        "%"
+    ],
+    "blood_lac": [
+        "mmol/l"
+    ],
+    "blood_magnes": [
+        "mmol/l"
+    ],
+    "blood_paco2": [
+        "mmHg"
+    ],
+    "blood_pao2": [
+        "mmHg"
+    ],
+    "blood_plat": [
+        "Gpt/l"
+    ],
+    "blood_potas": [
+        "mmol/l"
+    ],
+    "blood_prbc": [
+        "ml"
+    ],
+    "blood_sao2": [
+        "%"
+    ],
+    "blood_sco2": [
+        "%"
+    ],
+    "blood_smvo2": [
+        "%"
+    ],
+    "blood_sodium": [
+        "mmol/l"
+    ],
+    "blood_svo2": [
+        "%"
+    ],
+    "blood_wbc": [
+        "Gpt/l"
+    ],
+    "daemo_age": [
+        "years"
+    ],
+    "daemo_height": [
+        "cm"
+    ],
+    "daemo_weight": [
+        "kg"
+    ],
+    "ecmo_bloodflow": [
+        "l/min"
+    ],
+    "ecmo_rpm": [
+        "1/min"
+    ],
+    "ecmo_sweep": [
+        "l/min"
+    ],
+    "nan": [
+        "ml"
+    ],
+    "state_bun": [
+        "mmol/l"
+    ],
+    "state_temp": [
+        "C"
+    ],
+    "vent_etco2": [
+        "mmHg"
+    ],
+    "vent_exp": [
+        "s"
+    ],
+    "vent_fio2": [
+        "%"
+    ],
+    "vent_insp": [
+        "s"
+    ],
+    "vent_inspexp": [
+        "%"
+    ],
+    "vent_mairpress": [
+        "cmH2O"
+    ],
+    "vent_mv": [
+        "l/min"
+    ],
+    "vent_peep": [
+        "cmH2O"
+    ],
+    "vent_pinsp": [
+        "cmH2O"
+    ],
+    "vent_rrcontrolled": [
+        "1/min"
+    ],
+    "vent_rrspont": [
+        "1/min"
+    ],
+    "vent_rrtot": [
+        "1/min"
+    ],
+    "vent_rsbi": [
+        "1/min/ml/kg"
+    ],
+    "vent_suppress": [
+        "cmH2O"
+    ],
+    "vent_vt": [
+        "ml"
+    ],
+    "vent_vtnorm": [
+        "ml/kg"
+    ],
+    "vital_DBP": [
+        "mmHg"
+    ],
+    "vital_PVRI": [
+        "dyn.s/cm5/m^2"
+    ],
+    "vital_SBP": [
+        "mmHg"
+    ],
+    "vital_SVRI": [
+        "dyn.s/cm5/m^2"
+    ],
+    "vital_co": [
+        "ml"
+    ],
+    "vital_cvp": [
+        "mmHg"
+    ],
+    "vital_hr": [
+        "1/min"
+    ],
+    "vital_map": [
+        "mmHg"
+    ],
+    "vital_mpap": [
+        "mmHg"
+    ],
+    "vital_spo2": [
+        "%"
+    ]
+}

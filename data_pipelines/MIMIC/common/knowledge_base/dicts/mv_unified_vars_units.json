@@ -1,0 +1,417 @@
+{
+    "blood_be": {
+        "initial": [
+            null
+        ],
+        "target": "mmol/l"
+    },
+    "blood_hco3": {
+        "initial": [
+            null
+        ],
+        "target": "mmol/l"
+    },
+    "blood_ph": {
+        "initial": [
+            null
+        ],
+        "target": null
+    },
+    "drugs_vaso4h": {
+        "initial": [
+            "mg",
+            "units"
+        ],
+        "target": "\u00b5g/kg/min"
+    },
+    "vital_map": {
+        "initial": [
+            "mmHg"
+        ],
+        "target": "mmHg"
+    },
+    "vital_mpap": {
+        "initial": [
+            "mmHg"
+        ],
+        "target": "mmHg"
+    },
+    "vital_DBP": {
+        "initial": [
+            "mmHg"
+        ],
+        "target": "mmHg"
+    },
+    "vital_SBP": {
+        "initial": [
+            "mmHg"
+        ],
+        "target": "mmHg"
+    },
+    "vital_SVRI": {
+        "initial": [
+            "dynes*sec/cm5/m2"
+        ],
+        "target": "dyn.s/cm5/m^2"
+    },
+    "blood_INR": {
+        "initial": [
+            null
+        ],
+        "target": null
+    },
+    "blood_PTT": {
+        "initial": [
+            null
+        ],
+        "target": "s"
+    },
+    "daemo_sex": {
+        "initial": [],
+        "target": null
+    },
+    "daemo_weight": {
+        "initial": [
+            "kg",
+            null
+        ],
+        "target": "kg"
+    },
+    "daemo_height": {
+        "initial": [
+            "cm",
+            "Inch"
+        ],
+        "target": "cm"
+    },
+    "daemo_discharge": {
+        "initial": [
+            null
+        ],
+        "target": null
+    },
+    "ecmo_bloodflow": {
+        "initial": [
+            "L/min"
+        ],
+        "target": "l/min"
+    },
+    "ecmo_rpm": {
+        "initial": [
+            "RPM"
+        ],
+        "target": "1/min"
+    },
+    "ecmo_sweep": {
+        "initial": [
+            null
+        ],
+        "target": "l/min"
+    },
+    "blood_calcium": {
+        "initial": [
+            null
+        ],
+        "target": "mmol/l"
+    },
+    "blood_chlorid": {
+        "initial": [
+            null
+        ],
+        "target": "mmol/l"
+    },
+    "blood_caion": {
+        "initial": [
+            null
+        ],
+        "target": "mmol/l"
+    },
+    "blood_magnes": {
+        "initial": [
+            null
+        ],
+        "target": "mmol/l"
+    },
+    "blood_potas": {
+        "initial": [
+            null
+        ],
+        "target": "mmol/l"
+    },
+    "blood_sodium": {
+        "initial": [
+            null
+        ],
+        "target": "mmol/l"
+    },
+    "vital_cvp": {
+        "initial": [
+            "mmHg"
+        ],
+        "target": "mmHg"
+    },
+    "state_cumfluids": {
+        "initial": [
+            "mL"
+        ],
+        "target": "ml/h"
+    },
+    "state_ivfluid4h": {
+        "initial": [
+            "mL"
+        ],
+        "target": "ml/4h"
+    },
+    "vent_etco2": {
+        "initial": [
+            null
+        ],
+        "target": "mmHg"
+    },
+    "blood_paco2": {
+        "initial": [
+            "mmHg"
+        ],
+        "target": "mmHg"
+    },
+    "blood_pao2": {
+        "initial": [
+            "mmHg"
+        ],
+        "target": "mmHg"
+    },
+    "vent_fio2": {
+        "initial": [
+            "%",
+            null
+        ],
+        "target": "%"
+    },
+    "vital_spo2": {
+        "initial": [
+            "%"
+        ],
+        "target": "%"
+    },
+    "blood_sao2": {
+        "initial": [
+            "%"
+        ],
+        "target": "%"
+    },
+    "blood_svo2": {
+        "initial": [
+            "%",
+            null
+        ],
+        "target": "%"
+    },
+    "blood_sco2": {
+        "initial": [
+            "%",
+            null
+        ],
+        "target": "%"
+    },
+    "blood_smvo2": {
+        "initial": [
+            "%"
+        ],
+        "target": "%"
+    },
+    "blood_plat": {
+        "initial": [
+            null
+        ],
+        "target": "Gpt/l"
+    },
+    "blood_hb": {
+        "initial": [
+            "g/dl"
+        ],
+        "target": "mmol/l"
+    },
+    "blood_hct": {
+        "initial": [
+            null
+        ],
+        "target": "%"
+    },
+    "blood_wbc": {
+        "initial": [
+            null
+        ],
+        "target": "Gpt/l"
+    },
+    "vital_co": {
+        "initial": [
+            "L/min"
+        ],
+        "target": "ml"
+    },
+    "vital_hr": {
+        "initial": [
+            "bpm"
+        ],
+        "target": "1/min"
+    },
+    "state_bun": {
+        "initial": [
+            null
+        ],
+        "target": "mmol/l"
+    },
+    "blood_crea": {
+        "initial": [
+            null
+        ],
+        "target": "umol/l"
+    },
+    "state_urin4h": {
+        "initial": [
+            "mL",
+            null
+        ],
+        "target": "ml/4h"
+    },
+    "blood_album": {
+        "initial": [
+            null
+        ],
+        "target": "g/l"
+    },
+    "blood_ast": {
+        "initial": [
+            null
+        ],
+        "target": "umol/s/l"
+    },
+    "blood_alt": {
+        "initial": [
+            null
+        ],
+        "target": "umol/s/l"
+    },
+    "blood_billi": {
+        "initial": [
+            null
+        ],
+        "target": "umol/l"
+    },
+    "blood_lac": {
+        "initial": [
+            null
+        ],
+        "target": "mmol/l"
+    },
+    "blood_gluco": {
+        "initial": [
+            null
+        ],
+        "target": "mmol/l"
+    },
+    "state_temp": {
+        "initial": [
+            "\u00b0F",
+            "\u00b0C"
+        ],
+        "target": "C"
+    },
+    "vent_inspexp": {
+        "initial": [
+            null
+        ],
+        "target": null
+    },
+    "vent_insp": {
+        "initial": [
+            "sec"
+        ],
+        "target": "s"
+    },
+    "vent_pinsp": {
+        "initial": [
+            "cmH2O"
+        ],
+        "target": "cmH2O"
+    },
+    "vent_invas": {
+        "initial": [
+            null
+        ],
+        "target": null
+    },
+    "vent_mairpress": {
+        "initial": [
+            "cmH2O"
+        ],
+        "target": "cmH2O"
+    },
+    "vent_mv": {
+        "initial": [
+            "L/min"
+        ],
+        "target": "l/min"
+    },
+    "vent_peep": {
+        "initial": [
+            "cmH2O"
+        ],
+        "target": "cmH2O"
+    },
+    "vent_rrtot": {
+        "initial": [
+            "insp/min"
+        ],
+        "target": "1/min"
+    },
+    "vent_rrcontrolled": {
+        "initial": [
+            "insp/min"
+        ],
+        "target": "1/min"
+    },
+    "vent_rrspont": {
+        "initial": [
+            "insp/min",
+            "bpm"
+        ],
+        "target": "1/min"
+    },
+    "vent_suppress": {
+        "initial": [
+            "cmH2O"
+        ],
+        "target": "cmH2O"
+    },
+    "vent_vt": {
+        "initial": [
+            "mL"
+        ],
+        "target": "ml"
+    },
+    "vent_mode": {
+        "initial": [
+            null
+        ],
+        "target": null
+    },
+    "state_airtype": {
+        "initial": [
+            null
+        ],
+        "target": null
+    },
+    "blood_ffp": {
+        "initial": [
+            "mL"
+        ],
+        "target": "ml"
+    },
+    "blood_prbc": {
+        "initial": [
+            "mL"
+        ],
+        "target": "ml"
+    }
+}

@@ -1,0 +1,21 @@
+goal_type: 'next_state'
+horizon: 4
+#iters: 200
+iters: 5
+beta_unc: 50
+gamma_unc: 0.9
+clamp_action: 1.0
+
+action_l2: 0
+behavior_support: 0
+alpha_support: 1
+#planner:
+#  kind: grad
+#  grad_lr: 1e-2
+planner:
+  kind: cem
+  pop_size: 256
+  elite_frac: 0.1
+  init_std: 1.0
+  min_std: 0.05
+  alpha: 0

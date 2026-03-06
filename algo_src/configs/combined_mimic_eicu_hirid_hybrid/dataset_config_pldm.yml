@@ -1,0 +1,6 @@
+dataset_type: pldm_test_configs
+dataset_path: logs/datasets/combined_mimic_eicu_hirid/14-10-2025/combined_eicu_mimiciv_7_action_setup_hirid.csv
+test_split_path: logs/datasets/combined_mimic_eicu_hirid/14-10-2025/test.csv
+train_split_path: logs/datasets/combined_mimic_eicu_hirid/14-10-2025/train.csv
+test_split_size: 0.2
+seed: 42

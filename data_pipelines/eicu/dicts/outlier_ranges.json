@@ -1,0 +1,442 @@
+{
+    "blood_INR": {
+        "Threshold low": [
+            0.9
+        ],
+        "Threshold high": [
+            15.0
+        ]
+    },
+    "blood_PTT": {
+        "Threshold low": [
+            20.0
+        ],
+        "Threshold high": [
+            120.0
+        ]
+    },
+    "blood_album": {
+        "Threshold low": [
+            5.0
+        ],
+        "Threshold high": [
+            50.0
+        ]
+    },
+    "blood_alt": {
+        "Threshold low": [
+            0.1
+        ],
+        "Threshold high": [
+            100.0
+        ]
+    },
+    "blood_ast": {
+        "Threshold low": [
+            0.1
+        ],
+        "Threshold high": [
+            100.0
+        ]
+    },
+    "blood_be": {
+        "Threshold low": [
+            -20.0
+        ],
+        "Threshold high": [
+            30.0
+        ]
+    },
+    "blood_billi": {
+        "Threshold low": [
+            5.0
+        ],
+        "Threshold high": [
+            500.0
+        ]
+    },
+    "blood_caion": {
+        "Threshold low": [
+            0.5
+        ],
+        "Threshold high": [
+            2.5
+        ]
+    },
+    "blood_calcium": {
+        "Threshold low": [
+            0.2
+        ],
+        "Threshold high": [
+            5.0
+        ]
+    },
+    "blood_chlorid": {
+        "Threshold low": [
+            80.0
+        ],
+        "Threshold high": [
+            150.0
+        ]
+    },
+    "blood_crea": {
+        "Threshold low": [
+            30.0
+        ],
+        "Threshold high": [
+            450.0
+        ]
+    },
+    "blood_gluco": {
+        "Threshold low": [
+            2.0
+        ],
+        "Threshold high": [
+            40.0
+        ]
+    },
+    "blood_hb": {
+        "Threshold low": [
+            2.0
+        ],
+        "Threshold high": [
+            20.0
+        ]
+    },
+    "blood_hco3": {
+        "Threshold low": [
+            10.0
+        ],
+        "Threshold high": [
+            45.0
+        ]
+    },
+    "blood_hct": {
+        "Threshold low": [
+            15.0
+        ],
+        "Threshold high": [
+            80.0
+        ]
+    },
+    "blood_lac": {
+        "Threshold low": [
+            0.2
+        ],
+        "Threshold high": [
+            30.0
+        ]
+    },
+    "blood_magnes": {
+        "Threshold low": [
+            0.5
+        ],
+        "Threshold high": [
+            5.0
+        ]
+    },
+    "blood_paco2": {
+        "Threshold low": [
+            20.0
+        ],
+        "Threshold high": [
+            100.0
+        ]
+    },
+    "blood_pao2": {
+        "Threshold low": [
+            20.0
+        ],
+        "Threshold high": [
+            600.0
+        ]
+    },
+    "blood_ph": {
+        "Threshold low": [
+            6.0
+        ],
+        "Threshold high": [
+            8.0
+        ]
+    },
+    "blood_plat": {
+        "Threshold low": [
+            10.0
+        ],
+        "Threshold high": [
+            1500.0
+        ]
+    },
+    "blood_potas": {
+        "Threshold low": [
+            2.0
+        ],
+        "Threshold high": [
+            10.0
+        ]
+    },
+    "blood_sao2": {
+        "Threshold low": [
+            40.0
+        ],
+        "Threshold high": [
+            100.0
+        ]
+    },
+    "blood_sodium": {
+        "Threshold low": [
+            120.0
+        ],
+        "Threshold high": [
+            180.0
+        ]
+    },
+    "blood_svo2": {
+        "Threshold low": [
+            20.0
+        ],
+        "Threshold high": [
+            90.0
+        ]
+    },
+    "blood_wbc": {
+        "Threshold low": [
+            0.0
+        ],
+        "Threshold high": [
+            30.0
+        ]
+    },
+    "daemo_age": {
+        "Threshold low": [
+            18.0
+        ],
+        "Threshold high": [
+            120.0
+        ]
+    },
+    "daemo_height": {
+        "Threshold low": [
+            155.0
+        ],
+        "Threshold high": [
+            200.0
+        ]
+    },
+    "daemo_weight": {
+        "Threshold low": [
+            40.0
+        ],
+        "Threshold high": [
+            140.0
+        ]
+    },
+    "drugs_vaso4h": {
+        "Threshold low": [
+            0.0
+        ],
+        "Threshold high": [
+            5.0
+        ]
+    },
+    "ecmo_bloodflow": {
+        "Threshold low": [
+            0.1
+        ],
+        "Threshold high": [
+            10.0
+        ]
+    },
+    "ecmo_sweep": {
+        "Threshold low": [
+            1.0
+        ],
+        "Threshold high": [
+            10.0
+        ]
+    },
+    "state_bun": {
+        "Threshold low": [
+            1.0
+        ],
+        "Threshold high": [
+            10.0
+        ]
+    },
+    "state_cumfluids": {
+        "Threshold low": [
+            -10000.0
+        ],
+        "Threshold high": [
+            20000.0
+        ]
+    },
+    "state_ivfluid4h": {
+        "Threshold low": [
+            0.0
+        ],
+        "Threshold high": [
+            20000.0
+        ]
+    },
+    "state_temp": {
+        "Threshold low": [
+            30.0
+        ],
+        "Threshold high": [
+            43.0
+        ]
+    },
+    "state_urin4h": {
+        "Threshold low": [
+            0.0
+        ],
+        "Threshold high": [
+            2000.0
+        ]
+    },
+    "vent_etco2": {
+        "Threshold low": [
+            20.0
+        ],
+        "Threshold high": [
+            100.0
+        ]
+    },
+    "vent_fio2": {
+        "Threshold low": [
+            21.0
+        ],
+        "Threshold high": [
+            100.0
+        ]
+    },
+    "vent_inspexp": {
+        "Threshold low": [
+            0.25
+        ],
+        "Threshold high": [
+            4.0
+        ]
+    },
+    "vent_mairpress": {
+        "Threshold low": [
+            5.0
+        ],
+        "Threshold high": [
+            55.0
+        ]
+    },
+    "vent_peep": {
+        "Threshold low": [
+            0.0
+        ],
+        "Threshold high": [
+            50.0
+        ]
+    },
+    "vent_pinsp": {
+        "Threshold low": [
+            10.0
+        ],
+        "Threshold high": [
+            60.0
+        ]
+    },
+    "vent_rrtot": {
+        "Threshold low": [
+            3.0
+        ],
+        "Threshold high": [
+            60.0
+        ]
+    },
+    "vent_suppress": {
+        "Threshold low": [
+            0.0
+        ],
+        "Threshold high": [
+            30.0
+        ]
+    },
+    "vent_vt": {
+        "Threshold low": [
+            80.0
+        ],
+        "Threshold high": [
+            2040.0
+        ]
+    },
+    "vital_DBP": {
+        "Threshold low": [
+            20.0
+        ],
+        "Threshold high": [
+            120.0
+        ]
+    },
+    "vital_SBP": {
+        "Threshold low": [
+            50.0
+        ],
+        "Threshold high": [
+            260.0
+        ]
+    },
+    "vital_SVRI": {
+        "Threshold low": [
+            500.0
+        ],
+        "Threshold high": [
+            5000.0
+        ]
+    },
+    "vital_co": {
+        "Threshold low": [
+            1000.0
+        ],
+        "Threshold high": [
+            25000.0
+        ]
+    },
+    "vital_cvp": {
+        "Threshold low": [
+            -4.0
+        ],
+        "Threshold high": [
+            25.0
+        ]
+    },
+    "vital_hr": {
+        "Threshold low": [
+            20.0
+        ],
+        "Threshold high": [
+            200.0
+        ]
+    },
+    "vital_map": {
+        "Threshold low": [
+            30.0
+        ],
+        "Threshold high": [
+            200.0
+        ]
+    },
+    "vital_mpap": {
+        "Threshold low": [
+            10.0
+        ],
+        "Threshold high": [
+            80.0
+        ]
+    },
+    "vital_spo2": {
+        "Threshold low": [
+            30.0
+        ],
+        "Threshold high": [
+            100.0
+        ]
+    }
+}

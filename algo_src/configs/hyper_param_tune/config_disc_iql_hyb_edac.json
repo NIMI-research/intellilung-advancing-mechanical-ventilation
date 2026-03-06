@@ -1,0 +1,127 @@
+{
+  "root_path": "logs",
+  "tune_configs": [
+    {
+      "number_of_evaluations": 2,
+      "base_algo_config_path": "configs/combined_mimic_eicu_hirid_hybrid/hybrid_edac_configs.yml",
+      "fqe_config_path": "configs/combined_mimic_eicu_hirid/dist_fqe_config.yml",
+      "dataset_config_path": "configs/combined_mimic_eicu_hirid_hybrid/dataset_config.yml",
+      "tune": [
+        {
+          "params": [
+            "actor_learning_rate",
+            "alpha_learning_rate",
+            "critic_learning_rate"
+          ],
+          "values": [
+            1e-4,
+            1e-5,
+            1e-6
+          ]
+        },
+        {
+          "params": [
+            "eta"
+          ],
+          "values": [
+            0.1,
+            1,
+            10
+          ]
+        },
+        {
+          "params": [
+            "num_critics"
+          ],
+          "values": [
+            5,
+            10,
+            25
+          ]
+        },
+        {
+          "params": [
+            "hidden_dims"
+          ],
+          "values": [
+            [
+              256,
+              256,
+              256
+            ],
+            [
+              128,
+              128,
+              128
+            ],
+            [
+              64,
+              64
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number_of_evaluations": 2,
+      "base_algo_config_path": "configs/combined_mimic_eicu_hirid/discrete_iql_configs.yml",
+      "fqe_config_path": "configs/combined_mimic_eicu_hirid/dist_fqe_config.yml",
+      "dataset_config_path": "configs/combined_mimic_eicu_hirid/dataset_config.yml",
+      "tune": [
+        {
+          "params": [
+            "qf_lr",
+            "actor_lr",
+            "vf_lr"
+          ],
+          "values": [
+            1e-4,
+            1e-3,
+            1e-5
+          ]
+        },
+        {
+          "params": [
+            "iql_tau"
+          ],
+          "values": [
+            0.9,
+            0.8,
+            0.7
+          ]
+        },
+        {
+          "params": [
+            "beta"
+          ],
+          "values": [
+            5,
+            10,
+            25
+          ]
+        },
+        {
+          "params": [
+            "hidden_dims"
+          ],
+          "values": [
+            [
+              256,
+              256,
+              256
+            ],
+            [
+              128,
+              128,
+              128
+            ],
+            [
+              64,
+              64
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
