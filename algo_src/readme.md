@@ -7,7 +7,7 @@
 For GPU version:
 ```console
 conda env update --file environment.yml --prune
-conda activate IntelliLungEnvD33GPU
+conda activate IntelliLungEUEnv
 ```
 
 
